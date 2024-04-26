@@ -28,8 +28,8 @@ export default function Home() {
       <SimpleSlider />
 
       <div className={styles.middleItem}>
-        <div className="row">
-          <div className="col-md-3 mb-3">
+        <div className={styles.rows}>
+          <div className={styles.cols1}>
             <div className={styles.lottery}>
               <div className={styles.content}>
                 <Image src={Lottery} alt="Lottery" width={50} height={50} />
@@ -55,7 +55,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="col-md-9 ">
+          <div className={styles.cols2}>
             <div className={styles.win}>
               <div className={styles.text}>
                 <h6 className="m-0 p-0">Win Go</h6>
